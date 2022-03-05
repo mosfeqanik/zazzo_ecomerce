@@ -5,6 +5,7 @@ import 'package:get/get.dart';
 import 'package:mosfeqanik/utils/app_colors.dart';
 import 'package:mosfeqanik/utils/asset_strings.dart';
 import 'package:mosfeqanik/utils/themes_styles.dart';
+import 'package:mosfeqanik/views/homepage/category_page/all_category_page.dart';
 import 'package:mosfeqanik/views/homepage/landing_home_page/landing_home_page_controller.dart';
 import 'package:mosfeqanik/views/homepage/landing_home_page/model/daily_deal_Model_Class.dart';
 
@@ -72,7 +73,12 @@ class LandingHomePage extends StatelessWidget {
                 Container(
                   padding:
                       const EdgeInsets.symmetric(vertical: 8, horizontal: 4),
-                  child: _paraHeading(ParaheadingName: "Product Categories"),
+                  child: GestureDetector(
+                      onTap: () {
+                        Get.toNamed(AllCategoryPage.routeName);
+                      },
+                      child:
+                          _paraHeading(ParaheadingName: "Product Categories")),
                 ),
                 Container(
                   padding:

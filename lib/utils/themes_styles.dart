@@ -16,6 +16,11 @@ class TextThemes {
     fontSize: 15,
     color: AppColors.kSecondaryGreyColor,
   );
+  static final TextStyle productPriceTextStyle = GoogleFonts.poppins(
+    fontSize: 12,
+    fontWeight: FontWeight.w500,
+    color: AppColors.kSecondaryGreyColor,
+  );
   static final TextStyle UserNameStyle = GoogleFonts.poppins(
     fontSize: 15,
     fontWeight: FontWeight.bold,
@@ -27,17 +32,36 @@ class TextThemes {
     fontWeight: FontWeight.w600,
     color: AppColors.kBlackColor,
   );
+  static final TextStyle PriceTextStyle = GoogleFonts.poppins(
+    fontSize: 25,
+    fontWeight: FontWeight.w600,
+    color: AppColors.kSecondaryGreyColor,
+  );
+  static final TextStyle SizeTextStyle = GoogleFonts.poppins(
+    fontSize: 16,
+    fontWeight: FontWeight.w600,
+    color: AppColors.kBlackColor,
+  );
+  static final TextStyle productDescriptionTextStyle = GoogleFonts.poppins(
+    fontSize: 12,
+    color: AppColors.kBlackColor,
+  );
   static final TextStyle AddtoCartButtonTextStyle = GoogleFonts.poppins(
     fontSize: 12,
     fontWeight: FontWeight.w600,
     color: AppColors.kBlueColor,
+  );
+  static final TextStyle AddtoCartButtonForProductdetailTextStyle = GoogleFonts.poppins(
+    fontSize: 12,
+    fontWeight: FontWeight.w600,
+    color: AppColors.kdeepBlueColor,
   );
   static final TextStyle productNameTextStyle = GoogleFonts.poppins(
     fontSize: 14,
     fontWeight: FontWeight.w300,
     color: AppColors.kBlackColor,
   );
-  static final TextStyle productPriceTextStyle = GoogleFonts.poppins(
+  static final TextStyle productPriceGridTextStyle = GoogleFonts.poppins(
     fontSize: 15,
     fontWeight: FontWeight.w600,
     color: AppColors.kBlackColor,
@@ -53,5 +77,11 @@ class TextThemes {
     fontSize: 14,
     color: Colors.black,
   );
+  static final TextStyle categoryListStyle = GoogleFonts.poppins(
+    fontSize: 13,
+    fontWeight: FontWeight.w600,
+    color: AppColors.kBlackColor,
+  );
+
 
 }

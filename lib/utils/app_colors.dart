@@ -9,6 +9,9 @@ class AppColors {
   static const Color searchboxGreyColor = Color(0x9fcecece);
   static const Color kpinkColor = Color(0xFFfa395a);
   static const Color kBlueColor = Color(0xFF1667d9);
+  static const Color kdeepBlueColor = Color(0xff052963);
+
+  static const Color kSkyblueColor = Color(0xd23c8dff);
 
 
 }
