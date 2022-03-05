@@ -2,7 +2,7 @@ import 'package:connectivity_plus/connectivity_plus.dart';
 import 'package:dio/dio.dart';
 import 'package:flutter_easyloading/flutter_easyloading.dart';
 import 'package:get/get.dart';
-import 'package:mosfeqanik/views/homepage/landing_home_page/model/ProductModelClass.dart';
+import 'package:mosfeqanik/views/homepage/landing_home_page/model/Product_Model_Class.dart';
 
 class LandingHomePageController extends GetxController {
   var updatedProductDataListAPI=<ProductModelClass>[].obs;
